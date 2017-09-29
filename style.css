@@ -1,0 +1,58 @@
+#control {
+    position:fixed;
+    left:-200px;
+    top:30px;
+    width:200px;
+    background-color:rgba(180,180,180,0.5);
+    transition:left 1s;
+}
+
+#BGImageBox {
+    width:100%;
+    text-align:center;
+    
+}
+
+.bgThumbs {
+    width:80%;
+    height:auto;
+    margin:10px auto 10px auto;   
+}
+
+#TopButton {
+    width:55px;
+    height:55px;
+    position:absolute;
+    right:-55px;
+    top:0;
+    background-color:rgba(180,180,180,0.5);
+}
+
+#BottomButton {
+    width:55px;
+    height:55px;
+    position:absolute;
+    right:-55px;
+    bottom:0px;
+    background-color:rgba(180,180,180,0.5);
+}
+
+#buttonimg {
+    height:100%;
+    
+}
+
+#buttonimg2 {
+    height:100%;
+    
+}
+
+#backgroundImage {
+    width:100vw;
+    height:100vh;
+    background-image:url(img/bg1.jpg);
+    background-size:cover;
+    position:absolute;
+    left:0;
+    top:0;
+}
